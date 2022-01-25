@@ -1,5 +1,7 @@
+img {max-width:100%;}
+
 .signup {
-    color: white;
+    color: white;   
     background-color: #3882f6;
 }
 
@@ -33,6 +35,7 @@
 
 .header a:hover {
     background-color: dodgerblue;
+    color: #e5e7eb;
 }
 
 .header a.active {
@@ -43,6 +46,7 @@
 .header-right {
     float: right;
     padding: 5 px 5 px;
+    color: #e5e7eb;
 }
 
 @media screen and (max-width: 500px) {
@@ -100,6 +104,10 @@
     color: #1f2937;
 }
 
+.container2 figcaption {
+    text-align: center;
+}
+
 .flexbox {
     display: flex;
     float: center;
@@ -135,14 +143,14 @@
     background-color: #e5e7eb;   
 }
 
-.quote {
+.container3 p.quote {
     font-style: light-italic;
     font-size: 36 px;
     text-align: center;
     color: #1f2937;
 }
 
-.quoteattribute {
+.container3 p.quoteattribute {
     text-align: right;
     font-style: extra-bold;
     font-size: 12 px;
@@ -176,5 +184,8 @@
     line-height: 25 px;
     border-radius: 4 px;
     background-color: #1f2937;  
-    text-align: center;
 } 
+
+.footer p {
+    text-align: center;
+}
