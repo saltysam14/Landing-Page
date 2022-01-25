@@ -79,20 +79,19 @@ img {max-width:100%;}
     color: #e5e7eb;
 }
 
-.container1pic {
-    flex: 10%;
+.container1 img {
+    flex: 5%;
     float: right;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 5 px;
+    padding: 2 px;
     width: 150 px;
 }
 
 .container2 {
     padding: 12 px;
     line-height: 25 px;
-    border-radius: 4 px;
-    background-color: teal;   
+    border-radius: 4 px; 
 }
 
 .container2 h2 {
@@ -110,7 +109,7 @@ img {max-width:100%;}
     display: flex;
     float: center;
     justify-content: space-evenly;
-    flex: 10%;
+    flex: 1%;
 }
 
 .imgcontainer {
