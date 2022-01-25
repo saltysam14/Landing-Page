@@ -1,3 +1,13 @@
+.signup {
+    color: white;
+    background-color: blue;
+}
+
+.signup:hover {
+    color: white;
+    background-color: black;
+}
+
 .header {
     overflow: hidden;
     background-color: #f1f1ff;
@@ -32,6 +42,7 @@
 
 .header-right {
     float: right;
+    padding: 5 px 5 px;
 }
 
 @media screen and (max-width: 500px) {
@@ -44,3 +55,117 @@
         float: none;
     }
 }
+
+.container1 {
+    float: left;
+    color: black;
+    text-align: left;
+    padding: 12 px;
+    text-decoration: none;
+    line-height: 25 px;
+    border-radius: 4 px;
+    background-color: teal;
+}
+
+.container1header {
+    font-size: 24 px;
+}
+
+.container1p {
+    font-size: 12 px;
+}
+
+.container1pic {
+    float: right;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5 px;
+    width: 150 px;
+}
+
+.container2 {
+    color: black;
+    padding: 12 px;
+    text-decoration: none;
+    line-height: 25 px;
+    border-radius: 4 px;
+    background-color: teal;   
+}
+
+.container2 h2 {
+    font-size: 20 px;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.imgcontainer {
+    flex: 33.33%;
+    padding: 5 px;
+}
+
+.productimg {
+    border-radius: 75%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.productimg:container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.productimg:hover {
+    opacity: 0.75;
+}
+
+.container3 {
+    color: black;
+    padding: 12 px;
+    text-decoration: none;
+    line-height: 25 px;
+    border-radius: 4 px;
+    background-color: tan;   
+}
+
+.quote {
+    font-style: italic;
+    font-size: 22 px;
+    text-align: center;
+}
+
+.quoteattribute {
+    float: right;
+    font-style: bold;
+    font-size: 12 px;
+}
+
+.container4 {
+    color: white;
+    padding: 12 px;
+    text-decoration: none;
+    line-height: 25 px;
+    border-radius: 4 px;
+    background-color: blue;   
+}
+
+.containter4 h3 {
+    float: left;
+    font-size: 12x px;
+}
+
+.container4 p {
+    float: left;
+    font-size: 10 px;
+}
+
+.footer {
+    color: white;
+    padding: 12 px;
+    text-decoration: none;
+    line-height: 25 px;
+    border-radius: 4 px;
+    background-color: black;   
+} 
