@@ -1,6 +1,6 @@
 .signup {
     color: white;
-    background-color: blue;
+    background-color: #3882f6;
 }
 
 .signup:hover {
@@ -10,7 +10,7 @@
 
 .header {
     overflow: hidden;
-    background-color: #f1f1ff;
+    background-color: #1f2937;
     padding: 20px 10px;
 }
 
@@ -57,7 +57,6 @@
 }
 
 .container1 {
-    float: left;
     color: black;
     text-align: left;
     padding: 12 px;
@@ -99,6 +98,7 @@
 
 .flexbox {
     display: flex;
+    float: center;
 }
 
 .imgcontainer {
@@ -157,7 +157,7 @@
 }
 
 .container4 p {
-    float: left;
+    text-align: center;
     font-size: 10 px;
 }
 
@@ -167,5 +167,5 @@
     text-decoration: none;
     line-height: 25 px;
     border-radius: 4 px;
-    background-color: black;   
+    background-color: #1f2937;  
 } 
