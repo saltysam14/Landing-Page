@@ -16,7 +16,7 @@
 
 .header a {
     float: left;
-    color: black;
+    color: #f9faf8;;
     text-align: center;
     padding: 12 px;
     text-decoration: none;
@@ -32,7 +32,7 @@
 }
 
 .header a:hover {
-    color: #e5e7eb;
+    background-color: dodgerblue;
 }
 
 .header a.active {
@@ -103,6 +103,7 @@
 .flexbox {
     display: flex;
     float: center;
+    justify-content: space-evenly;
 }
 
 .imgcontainer {
@@ -142,8 +143,8 @@
 }
 
 .quoteattribute {
-    float: right;
-    font-style: bold;
+    text-align: right;
+    font-style: extra-bold;
     font-size: 12 px;
 }
 
@@ -157,13 +158,15 @@
 }
 
 .containter4 h3 {
-    float: left;
     font-size: 12x px;
 }
 
 .container4 p {
-    text-align: center;
     font-size: 10 px;
+}
+
+.container4 button {
+    float: right;
 }
 
 .footer {
@@ -173,4 +176,5 @@
     line-height: 25 px;
     border-radius: 4 px;
     background-color: #1f2937;  
+    text-align: center;
 } 
