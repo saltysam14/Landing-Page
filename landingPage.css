@@ -5,6 +5,10 @@ body {
     text-align: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
 .signup {
     color: white;   
     background-color: #3882f6;
