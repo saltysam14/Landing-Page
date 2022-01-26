@@ -85,13 +85,13 @@ img {max-width:100%;}
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 2 px;
-    width: 150 px;
 }
 
 .container2 {
     padding: 12 px;
     line-height: 25 px;
     border-radius: 4 px; 
+    background-color: white;
 }
 
 .container2 h2 {
@@ -113,7 +113,7 @@ img {max-width:100%;}
 }
 
 .imgcontainer {
-    flex: 33.33%;
+    flex: 20%;
     padding: 5 px;
 }
 
@@ -140,14 +140,14 @@ img {max-width:100%;}
     background-color: #e5e7eb;   
 }
 
-.container3 p.quote {
+.quote {
     font-style: light-italic;
     font-size: 36 px;
     text-align: center;
     color: #1f2937;
 }
 
-.container3 p.quoteattribute {
+.quoteattribute {
     text-align: right;
     font-style: extra-bold;
     font-size: 12 px;
