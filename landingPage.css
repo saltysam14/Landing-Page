@@ -22,15 +22,13 @@ body {
 .header {
     overflow: hidden;
     background-color: #1f2937;
-    padding: 20px 10px;
+    padding: 20px 20px 20px 20;
 }
 
 .header a {
-    float: left;
     color: #f9faf8;;
     text-align: center;
     padding: 12 px;
-    font-size: 18 px;
     line-height: 25 px;
     border-radius: 4px;
     margin-right: auto;
@@ -56,8 +54,9 @@ body {
     display: flex;
     float: right;
     margin-left: auto;
-    padding: 5 px 5 px;
+    padding: 10px;
     color: #e5e7eb;
+    font-size: 18 px;
 }
 
 @media screen and (max-width: 500px) {
