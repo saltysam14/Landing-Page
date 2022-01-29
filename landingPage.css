@@ -1,17 +1,14 @@
 body {
-    background-color: #ffffff;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     text-align: center;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
 .signup {
     color: white;   
     background-color: #3882f6;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .signup:hover {
@@ -19,25 +16,29 @@ body {
     background-color: black;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .header {
-    overflow: hidden;
     background-color: #1f2937;
-    padding: 20px 20px 20px 20;
+    padding: 20px 150px;
+    overflow: hidden;
 }
 
 .header a {
     color: #f9faf8;;
-    text-align: center;
     padding: 12 px;
     line-height: 25 px;
     border-radius: 4px;
-    margin-right: auto;
 }
 
 .header a.logo {
     font-size: 25px;
     font-weight: bold;
-    color: #f9faf8;
+    float: left;
 }
 
 .header a:hover {
@@ -51,32 +52,25 @@ body {
 }
 
 .header-right {
-    display: flex;
     float: right;
-    margin-left: auto;
     padding: 10px;
     color: #e5e7eb;
     font-size: 18 px;
 }
 
-@media screen and (max-width: 500px) {
-    .header a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    .header-right {
-        float: none;
-    }
-}
-
 .container1 {
-   
     text-align: left;
-    padding: 12 px;
     line-height: 25 px;
     border-radius: 4 px;
     background-color: #1f2937;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox1 {
+    width: 600px;
+       
 }
 
 .container1header {
@@ -88,25 +82,28 @@ body {
 .container1p {
     font-size: 18 px;
     color: #e5e7eb;
+    width: 400px;
+    
 }
 
 .container1 img {
     width: 100px;
     float: right;
-    border: 1px solid #ddd;
+    border: 5px solid #ddd;
     border-radius: 8px;
-    padding: 2 px;
+
+ 
 }
 
 .container2 {
-    padding: 12 px;
-    line-height: 25 px;
-    border-radius: 4 px; 
+    padding: 80px;
+    border-radius: 4px; 
     background-color: white;
+
 }
 
 .container2 h2 {
-    font-size: 36 px;
+    font-size: 36px;
     text-align: center;
     font-style: extra-bold;
     color: #1f2937;
@@ -116,27 +113,30 @@ body {
     text-align: center;
 }
 
-.flexbox {
+.flexbox2 {
     display: flex;
     float: center;
     justify-content: space-evenly;
-    flex: 1%;
+    align-content: center;
+    padding: 20px 400px;
 }
 
 .imgcontainer {
-    flex: 20%;
-    padding: 5 px;
+    padding: 5px;
 }
 
 .productimg {
     border-radius: 75%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100px;
+    height: 100px;
 }
 
 .productimg:container {
     text-align: center;
     padding: 10px 20px;
+
 }
 
 .productimg:hover {
@@ -145,50 +145,59 @@ body {
 
 .container3 {
     color: black;
-    padding: 12 px;
-    line-height: 25 px;
-    border-radius: 4 px;
-    background-color: #e5e7eb;   
+    border-radius: 4px;
+    background-color: #e5e7eb; 
+    display: flex;  
+    flex-direction: column;
+    padding: 20px 500px;
+    
 }
 
 .quote {
-    font-style: light-italic;
-    font-size: 36 px;
+    font-style: italic;
+    font-size: 36px;
     text-align: center;
     color: #1f2937;
+
 }
 
 .quoteattribute {
     text-align: right;
     font-style: extra-bold;
-    font-size: 12 px;
+    font-size: 20px;
+    padding-right: 100px;
 }
 
 .container4 {
     color: white;
-    padding: 12 px;
-    line-height: 25 px;
-    border-radius: 4 px;
+    padding: 12px;
+    border-radius: 4px;
     background-color: #3882f6;   
+    display: flex;
+    margin: 50px 500px;
+    justify-content: space-evenly;
 }
 
+.signupcontainer {
+    text-align: left;
+}
 .containter4 h3 {
-    font-size: 12x px;
-}
-
-.container4 p {
-    font-size: 10 px;
+    font-size: 16px;
 }
 
 .container4 button {
-    float: right;
+  align-self: center
+}
+
+.container4 p {
+    font-size: 12px;
 }
 
 .footer {
     color: white;
-    padding: 12 px;
-    line-height: 25 px;
-    border-radius: 4 px;
+    padding: 12px;
+    line-height: 25px;
+    border-radius: 4px;
     background-color: #1f2937;  
 } 
 
